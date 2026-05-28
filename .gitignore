@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Local working / scratch
+/tmp/
+*.local
+.env
+.env.*
+
+# Office temp files
+~$*.pptx
+~$*.xlsx
+~$*.docx
+
+# Build artifacts that are regenerated (NOT committed templates/examples themselves)
+# Templates and examples ARE committed; they are the deliverable.
