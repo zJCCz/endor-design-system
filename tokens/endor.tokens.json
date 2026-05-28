@@ -1,0 +1,298 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+
+  "$metadata": {
+    "version": "0.1.0",
+    "name": "Endor Energia Design Tokens",
+    "description": "Fonte da verdade para cores, tipografia, espaçamento e demais decisões visuais da Endor Energia. Builders Python (src/endor_docs/) consomem este arquivo via styles.py. Não editar valores em brand/* sem revisão — refletem o Guia de Identidade Visual oficial (set/2023).",
+    "source": "brand/Endor_Guia_Identidade_Visual.pdf",
+    "generated": "2026-05-28"
+  },
+
+  "color": {
+
+    "brand": {
+      "$description": "Cores institucionais do Guia de Identidade Visual (set/2023). NÃO ALTERAR sem aprovação da diretoria de marca.",
+
+      "endor": {
+        "$value": "#0A1A5C",
+        "$type": "color",
+        "$description": "Cor principal institucional. Azul Endor — assinatura da marca.",
+        "$extensions": {
+          "br.endor.print": {
+            "pantone": "287C",
+            "cmyk": [100, 90, 0, 50]
+          },
+          "br.endor.rgb": [10, 26, 92]
+        }
+      },
+
+      "terra": {
+        "$value": "#0083CA",
+        "$type": "color",
+        "$description": "Secundária. Azul Terra — uso em destaques, links, títulos secundários.",
+        "$extensions": {
+          "br.endor.print": {
+            "pantone": "299C",
+            "cmyk": [100, 35, 0, 0]
+          },
+          "br.endor.rgb": [0, 131, 202]
+        }
+      },
+
+      "por-do-sol": {
+        "$value": "#6C3F99",
+        "$type": "color",
+        "$description": "Secundária. Pôr do Sol (roxo) — uso em categorização e dados de natureza social/comunitária.",
+        "$extensions": {
+          "br.endor.print": {
+            "pantone": "265C",
+            "cmyk": [70, 90, 0, 0]
+          },
+          "br.endor.rgb": [108, 63, 153]
+        }
+      },
+
+      "natureza": {
+        "$value": "#00718A",
+        "$type": "color",
+        "$description": "Secundária. Natureza (teal) — uso em dados ambientais, ESG, eficiência energética.",
+        "$extensions": {
+          "br.endor.print": {
+            "pantone": "326C",
+            "cmyk": [100, 50, 40, 0]
+          },
+          "br.endor.rgb": [0, 113, 138]
+        }
+      },
+
+      "tech": {
+        "$value": "#858A9E",
+        "$type": "color",
+        "$description": "Secundária. Tech (cinza azulado) — uso em dados técnicos, textos auxiliares, eixos de gráfico. Base da escala neutra.",
+        "$extensions": {
+          "br.endor.print": {
+            "pantone": "429C",
+            "cmyk": [20, 15, 0, 40]
+          },
+          "br.endor.rgb": [133, 138, 158]
+        }
+      }
+    },
+
+    "neutral": {
+      "$description": "Escala de cinzas derivada de {color.brand.tech}. Mantém o tom azulado da marca. Use 'gray-500' como sinônimo de Tech.",
+
+      "gray-50":  { "$value": "#F7F8FA", "$type": "color", "$description": "Fundo de página, superfícies muito claras." },
+      "gray-100": { "$value": "#EEF0F4", "$type": "color", "$description": "Fundo de card padrão (cards de KPI, tabelas)." },
+      "gray-200": { "$value": "#DCDFE7", "$type": "color", "$description": "Divisores, bordas sutis, linhas de tabela." },
+      "gray-300": { "$value": "#BABFCC", "$type": "color", "$description": "Disabled states, eixos secundários de gráfico." },
+      "gray-400": { "$value": "#9CA1B0", "$type": "color", "$description": "Placeholders, texto desabilitado." },
+      "gray-500": { "$value": "#858A9E", "$type": "color", "$description": "Texto auxiliar. Igual a {color.brand.tech}." },
+      "gray-600": { "$value": "#6B7080", "$type": "color", "$description": "Texto secundário (legenda, footer, label de KPI)." },
+      "gray-700": { "$value": "#545967", "$type": "color", "$description": "Texto de apoio em headers." },
+      "gray-800": { "$value": "#3D414C", "$type": "color", "$description": "Texto principal em fundos claros." },
+      "gray-900": { "$value": "#1F2128", "$type": "color", "$description": "Texto de alta hierarquia, títulos em fundo branco quando {color.brand.endor} é demais." },
+      "white":    { "$value": "#FFFFFF", "$type": "color" },
+      "black":    { "$value": "#000000", "$type": "color" }
+    },
+
+    "semantic": {
+      "$description": "Cores funcionais. Success/info usam {color.brand.natureza} e {color.brand.terra} respectivamente — alinhadas à marca. Warning/error são neutros universais, pois o guia não traz equivalentes.",
+
+      "success": {
+        "$value": "{color.brand.natureza}",
+        "$type": "color",
+        "$description": "OK, no prazo, aprovado, dentro do SLA. Equivale a Natureza."
+      },
+      "info": {
+        "$value": "{color.brand.terra}",
+        "$type": "color",
+        "$description": "Informativo, neutro positivo, link. Equivale a Terra."
+      },
+      "warning": {
+        "$value": "#D89614",
+        "$type": "color",
+        "$description": "Atenção, próximo do limite. Âmbar neutro — fora do guia."
+      },
+      "error": {
+        "$value": "#D32F2F",
+        "$type": "color",
+        "$description": "Falha, atrasado, fora do escopo. Vermelho neutro — fora do guia."
+      }
+    },
+
+    "chart": {
+      "$description": "Sequência de cores categóricas para gráficos. Use nesta ordem para múltiplas séries — garante contraste e consistência com a marca.",
+
+      "categorical": {
+        "$value": [
+          "{color.brand.endor}",
+          "{color.brand.terra}",
+          "{color.brand.por-do-sol}",
+          "{color.brand.natureza}",
+          "{color.brand.tech}",
+          "{color.semantic.warning}",
+          "{color.semantic.error}"
+        ],
+        "$type": "array",
+        "$description": "Ordem canônica de cores para séries de dados em gráficos."
+      },
+
+      "sequential-blue": {
+        "$value": ["#EEF0F4", "#BFD7EA", "#7FB1D6", "#3F8BC2", "#0083CA", "#005F94", "#0A1A5C"],
+        "$type": "array",
+        "$description": "Escala sequencial de azuis (claro → escuro) para heatmaps, choropleths, dados ordinais."
+      }
+    }
+  },
+
+  "font": {
+    "family": {
+      "primary": {
+        "$value": "Avenir Next",
+        "$type": "fontFamily",
+        "$description": "Tipografia INSTITUCIONAL — peças impressas finais (relatórios encadernados, banners, sinalização). Pesos: Light, Regular, Medium, Bold. Requer licença Linotype/Monotype — não distribuída neste repo.",
+        "$extensions": {
+          "br.endor.fallback": ["Helvetica Neue", "Arial", "sans-serif"]
+        }
+      },
+      "document": {
+        "$value": "Calibri",
+        "$type": "fontFamily",
+        "$description": "Tipografia de TRABALHO — .pptx, .xlsx, .docx, e-mails. Fonte usada pelos builders Python por compatibilidade Office. Embutida no Microsoft Office.",
+        "$extensions": {
+          "br.endor.fallback": ["Carlito", "Arial", "sans-serif"]
+        }
+      }
+    },
+
+    "weight": {
+      "light":   { "$value": 300, "$type": "fontWeight" },
+      "regular": { "$value": 400, "$type": "fontWeight" },
+      "medium":  { "$value": 500, "$type": "fontWeight" },
+      "bold":    { "$value": 700, "$type": "fontWeight" }
+    },
+
+    "size": {
+      "$description": "Tamanhos em pt (ponto tipográfico). Calibrados na referência Luz Imperial em A4 portrait.",
+
+      "display":   { "$value": 60, "$type": "dimension", "$description": "Título de capa." },
+      "h1":        { "$value": 28, "$type": "dimension", "$description": "Título de seção (ex: '2. Consumo de Energia')." },
+      "h2":        { "$value": 18, "$type": "dimension", "$description": "Subtítulo de seção (cor: {color.brand.terra})." },
+      "h3":        { "$value": 14, "$type": "dimension", "$description": "Sub-subtítulo / título de bloco." },
+      "body":      { "$value": 10, "$type": "dimension", "$description": "Texto corrido padrão." },
+      "small":     { "$value": 9,  "$type": "dimension", "$description": "Caption, footer, notas." },
+      "tiny":      { "$value": 8,  "$type": "dimension", "$description": "Legendas mínimas, paginação." },
+      "kpi-value": { "$value": 36, "$type": "dimension", "$description": "Número grande em cards KPI." },
+      "kpi-label": { "$value": 9,  "$type": "dimension", "$description": "Label de KPI (linha acima do valor)." }
+    },
+
+    "lineHeight": {
+      "tight":   { "$value": 1.1, "$type": "number", "$description": "Títulos." },
+      "normal":  { "$value": 1.4, "$type": "number", "$description": "Body padrão." },
+      "relaxed": { "$value": 1.6, "$type": "number", "$description": "Blocos longos de texto." }
+    }
+  },
+
+  "space": {
+    "$description": "Escala de espaçamento em pt seguindo grid de 4pt. Use sempre estes valores — não inventar números intermediários.",
+
+    "0":  { "$value": 0,  "$type": "dimension" },
+    "1":  { "$value": 4,  "$type": "dimension", "$description": "Microespaçamento, entrelinhas justas." },
+    "2":  { "$value": 8,  "$type": "dimension", "$description": "Padding interno de tag, gap entre ícone e texto." },
+    "3":  { "$value": 12, "$type": "dimension", "$description": "Padding de card pequeno." },
+    "4":  { "$value": 16, "$type": "dimension", "$description": "Padding de card padrão (KPI cards)." },
+    "5":  { "$value": 24, "$type": "dimension", "$description": "Gap entre seções dentro de slide." },
+    "6":  { "$value": 32, "$type": "dimension", "$description": "Margem lateral de página A4." },
+    "7":  { "$value": 48, "$type": "dimension", "$description": "Gap entre blocos principais." },
+    "8":  { "$value": 64, "$type": "dimension", "$description": "Espaço de respiro generoso (capas, seções)." }
+  },
+
+  "radius": {
+    "$description": "Raios de borda em pt. Cards na referência Luz Imperial usam md (8pt).",
+
+    "none": { "$value": 0,    "$type": "dimension" },
+    "sm":   { "$value": 4,    "$type": "dimension", "$description": "Tags, badges, inputs pequenos." },
+    "md":   { "$value": 8,    "$type": "dimension", "$description": "Cards padrão (KPI, tabela). Default." },
+    "lg":   { "$value": 12,   "$type": "dimension", "$description": "Containers maiores, hero blocks." },
+    "pill": { "$value": 9999, "$type": "dimension", "$description": "Forma de pílula totalmente arredondada." }
+  },
+
+  "shadow": {
+    "$description": "Sombras em formato CSS-like. Para PPTX/XLSX, são traduzidas em python-pptx/openpyxl como sombras suaves.",
+
+    "none": {
+      "$value": "none",
+      "$type": "shadow"
+    },
+    "subtle": {
+      "$value": {
+        "color": "#1F212814",
+        "offsetX": 0,
+        "offsetY": 1,
+        "blur": 2,
+        "spread": 0
+      },
+      "$type": "shadow",
+      "$description": "Sombra mínima — divisão de superfícies em fundo claro."
+    },
+    "card": {
+      "$value": {
+        "color": "#1F21281F",
+        "offsetX": 0,
+        "offsetY": 2,
+        "blur": 8,
+        "spread": 0
+      },
+      "$type": "shadow",
+      "$description": "Sombra padrão de card."
+    },
+    "elevated": {
+      "$value": {
+        "color": "#1F21282E",
+        "offsetX": 0,
+        "offsetY": 8,
+        "blur": 24,
+        "spread": 0
+      },
+      "$type": "shadow",
+      "$description": "Elementos elevados — popovers, modais, hero cards."
+    }
+  },
+
+  "page": {
+    "$description": "Dimensões de página padrão para documentos gerados. Em mm para impressão.",
+
+    "a4-portrait": {
+      "width":  { "$value": 210, "$type": "dimension", "$unit": "mm" },
+      "height": { "$value": 297, "$type": "dimension", "$unit": "mm" }
+    },
+    "a4-landscape": {
+      "width":  { "$value": 297, "$type": "dimension", "$unit": "mm" },
+      "height": { "$value": 210, "$type": "dimension", "$unit": "mm" }
+    },
+    "slide-16-9": {
+      "width":  { "$value": 338.7, "$type": "dimension", "$unit": "mm", "$description": "Slide PowerPoint widescreen 16:9 (33.87 cm)." },
+      "height": { "$value": 190.5, "$type": "dimension", "$unit": "mm", "$description": "Slide PowerPoint widescreen 16:9 (19.05 cm)." }
+    },
+    "margin": {
+      "top":    { "$value": 18, "$type": "dimension", "$unit": "mm" },
+      "bottom": { "$value": 18, "$type": "dimension", "$unit": "mm" },
+      "left":   { "$value": 18, "$type": "dimension", "$unit": "mm" },
+      "right":  { "$value": 18, "$type": "dimension", "$unit": "mm" }
+    }
+  },
+
+  "logo": {
+    "$description": "Diretrizes de aplicação do logotipo. Reduções mínimas do Guia (página 8).",
+
+    "min-size-print": { "$value": 20,  "$type": "dimension", "$unit": "mm", "$description": "Tamanho mínimo recomendado em impressão." },
+    "min-size-digital": { "$value": 200, "$type": "dimension", "$unit": "px", "$description": "Tamanho mínimo recomendado em digital." },
+    "clear-space-ratio": {
+      "$value": 1.0,
+      "$type": "number",
+      "$description": "Área de proteção = altura da letra 'O' do logotipo (módulo). Aplicar em todas as direções."
+    }
+  }
+}
