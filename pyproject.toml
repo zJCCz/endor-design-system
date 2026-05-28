@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endor-docs"
+version = "0.1.0"
+description = "Builders Python para apresentações, planilhas e relatórios da Endor Energia, aplicando a identidade visual oficial."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [
+    { name = "Endor Energia" }
+]
+dependencies = [
+    "python-pptx>=0.6.23",
+    "openpyxl>=3.1.2",
+    "Pillow>=10.0.0"
+]
+
+[project.optional-dependencies]
+charts = [
+    "matplotlib>=3.8.0"
+]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+endor_docs = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
