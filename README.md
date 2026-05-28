@@ -123,8 +123,9 @@ artefatos. Sempre que mudar tokens ou builders, re-rode e commite.
 | `BRAND.natureza` | `#00718A` | ESG, ambiental, success |
 | `BRAND.tech` | `#858A9E` | Técnico, auxiliar |
 
-Tipografia: **Calibri** em documentos Office. **Avenir Next** institucional
-(requer licença Linotype, não distribuída neste repo).
+Tipografia: **Calibri** em documentos Office (default dos builders).
+**Avenir Next LT Pro** institucional para peças impressas finais — arquivos
+em `assets/fonts/`, licença Linotype/Monotype (**não redistribuir**).
 
 ## Estrutura de marca
 

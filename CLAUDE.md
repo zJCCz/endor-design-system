@@ -36,8 +36,9 @@ Sistema operacional da identidade visual. Fonte única para:
    .pptx/.xlsx é perdida na próxima geração.
 4. **Cores: só da paleta.** As 5 cores brand (Endor, Terra, Pôr do Sol,
    Natureza, Tech) + neutros + 4 semânticas. Nada fora.
-5. **Tipografia: Calibri em documentos gerados.** Avenir Next só em peças
-   impressas finais — não disponível neste container.
+5. **Tipografia: Calibri em documentos gerados.** Avenir Next LT Pro
+   disponível em `assets/fonts/` para peças impressas finais. **Não
+   redistribuir** — licença Linotype/Monotype.
 6. **Os 6 usos incorretos do logo** (página 16 do guia) são proibidos.
    Use sempre arquivos originais em `assets/logos/`.
 

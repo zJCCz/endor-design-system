@@ -150,11 +150,12 @@
   "font": {
     "family": {
       "primary": {
-        "$value": "Avenir Next",
+        "$value": "Avenir Next LT Pro",
         "$type": "fontFamily",
-        "$description": "Tipografia INSTITUCIONAL — peças impressas finais (relatórios encadernados, banners, sinalização). Pesos: Light, Regular, Medium, Bold. Requer licença Linotype/Monotype — não distribuída neste repo.",
+        "$description": "Tipografia INSTITUCIONAL — peças impressas finais (relatórios encadernados, banners, sinalização, materiais de marketing). Licença Linotype/Monotype. Arquivos disponíveis em assets/fonts/. NÃO redistribuir.",
         "$extensions": {
-          "br.endor.fallback": ["Helvetica Neue", "Arial", "sans-serif"]
+          "br.endor.fallback": ["Avenir Next", "Helvetica Neue", "Arial", "sans-serif"],
+          "br.endor.files": "assets/fonts/AvenirNextLTPro*.ttf"
         }
       },
       "document": {
@@ -168,10 +169,12 @@
     },
 
     "weight": {
-      "light":   { "$value": 300, "$type": "fontWeight" },
-      "regular": { "$value": 400, "$type": "fontWeight" },
-      "medium":  { "$value": 500, "$type": "fontWeight" },
-      "bold":    { "$value": 700, "$type": "fontWeight" }
+      "ultra-light": { "$value": 200, "$type": "fontWeight", "$description": "AvenirNextLTProUltLt." },
+      "regular":     { "$value": 400, "$type": "fontWeight", "$description": "AvenirNextLTProRegular. Body text padrão." },
+      "medium":      { "$value": 500, "$type": "fontWeight", "$description": "AvenirNextLTProMedium. Sub-headers, ênfase leve." },
+      "demi":        { "$value": 600, "$type": "fontWeight", "$description": "AvenirNextLTProDemi (semibold)." },
+      "bold":        { "$value": 700, "$type": "fontWeight", "$description": "AvenirNextLTProBold. Headers, ênfase principal." },
+      "heavy":       { "$value": 900, "$type": "fontWeight", "$description": "AvenirNextLTProHeavy. Display, capas." }
     },
 
     "size": {

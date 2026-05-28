@@ -165,10 +165,12 @@ FONTS = SimpleNamespace(
 )
 
 WEIGHTS = SimpleNamespace(
-    light=_font["weight"]["light"]["$value"],
+    ultra_light=_font["weight"]["ultra-light"]["$value"],
     regular=_font["weight"]["regular"]["$value"],
     medium=_font["weight"]["medium"]["$value"],
+    demi=_font["weight"]["demi"]["$value"],
     bold=_font["weight"]["bold"]["$value"],
+    heavy=_font["weight"]["heavy"]["$value"],
 )
 
 SIZES = SimpleNamespace(

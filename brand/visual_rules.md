@@ -108,15 +108,18 @@ Extraídos da página 16 do Guia. **Nunca**:
 
 | Família | Quando usar | Tokens |
 |--|--|--|
-| **Avenir Next** | Peças institucionais finais (impressos premium, sinalização, banners, materiais distribuídos pela diretoria de marca). Requer licença Linotype. | `font.family.primary` |
+| **Avenir Next LT Pro** | Peças institucionais finais (impressos premium, sinalização, banners, materiais distribuídos pela diretoria de marca). Arquivos em `assets/fonts/`. Licença Linotype/Monotype — **NÃO redistribuir**. | `font.family.primary` |
 | **Calibri** | Documentos abertos: .pptx, .xlsx, .docx, e-mails formatados, todos os artefatos gerados pelos builders Python. Embutida no Microsoft Office. | `font.family.document` |
 
-> Documentos de trabalho diários **usam Calibri**. Avenir Next é reservada e
-> requer aprovação da equipe de marca para uso.
+> Documentos de trabalho diários **usam Calibri**. Avenir Next LT Pro é
+> reservada para peças institucionais finais e requer aprovação da equipe
+> de marca para uso.
 
 ### Pesos disponíveis
 
-- Avenir Next: Light (300), Regular (400), Medium (500), Bold (700)
+- Avenir Next LT Pro: Ultra Light (200), Regular (400), Medium (500),
+  Demi/Semibold (600), Bold (700), Heavy (900) — todos com variante
+  Condensed para Ultra Light, Medium, Demi e Heavy. Ver `assets/fonts/README.md`.
 - Calibri: Regular (400), Bold (700)
 
 ### Hierarquia tipográfica (Calibri, em pt)
