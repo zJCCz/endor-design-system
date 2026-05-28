@@ -336,18 +336,46 @@ class EndorPresentation:
         title_tf = _add_textbox(slide, Cm(MARGIN_CM), Cm(3.0), Cm(SLIDE_W_CM - 2 * MARGIN_CM), Cm(1.5))
         _set_text(title_tf, title, size=styles.SIZES.h1, color=styles.BRAND.endor, bold=True)
 
-        # Imagem do gráfico
+        # Reserva: 5.0 cm topo + 2.0 cm caption + 1.0 cm footer = chart fica ~11 cm de altura
+        chart_top = Cm(5.0)
+        chart_max_h = Cm(SLIDE_H_CM - 5.0 - 2.5)  # ~11.5 cm
+        chart_w = Cm(SLIDE_W_CM - 2 * MARGIN_CM)
+
+        # Imagem do gráfico — dimensiona com width E height máx para garantir que não estoure
         chart_path = Path(chart_image)
         if chart_path.exists():
+            # Lê o tamanho real da imagem pra calcular aspect ratio e fittar
+            from PIL import Image as PILImage
+
+            with PILImage.open(chart_path) as img:
+                img_w, img_h = img.size
+            aspect = img_h / img_w  # altura / largura
+            # Calcula largura efetiva preservando aspect e respeitando ambos os limites
+            # Tenta usar largura cheia primeiro
+            target_w = SLIDE_W_CM - 2 * MARGIN_CM
+            target_h = target_w * aspect
+            max_h_cm = SLIDE_H_CM - 5.0 - 2.5
+            if target_h > max_h_cm:
+                target_h = max_h_cm
+                target_w = target_h / aspect
+            # Centraliza horizontalmente
+            left = Cm((SLIDE_W_CM - target_w) / 2)
             slide.shapes.add_picture(
                 str(chart_path),
-                left=Cm(MARGIN_CM),
-                top=Cm(5.0),
-                width=Cm(SLIDE_W_CM - 2 * MARGIN_CM),
+                left=left,
+                top=chart_top,
+                width=Cm(target_w),
+                height=Cm(target_h),
             )
 
         if caption:
-            cap_tf = _add_textbox(slide, Cm(MARGIN_CM), Cm(SLIDE_H_CM - 2.2), Cm(SLIDE_W_CM - 2 * MARGIN_CM), Cm(0.6))
+            cap_tf = _add_textbox(
+                slide,
+                Cm(MARGIN_CM),
+                Cm(SLIDE_H_CM - 2.0),
+                Cm(SLIDE_W_CM - 2 * MARGIN_CM),
+                Cm(0.8),
+            )
             _set_text(cap_tf, caption, size=styles.SIZES.small, color=styles.NEUTRAL.gray_600)
 
         self._slides.append(("chart", slide))
@@ -375,7 +403,7 @@ class EndorPresentation:
         if n == 0:
             return slide
 
-        card_h = Cm(5.0)
+        card_h = Cm(6.0)
         total_w = SLIDE_W_CM - 2 * MARGIN_CM
         gap = 0.5
         card_w = (total_w - gap * (n - 1)) / n
@@ -402,19 +430,27 @@ class EndorPresentation:
                 bold=True,
             )
 
-            # Value
-            val_tf = _add_textbox(slide, inner_x, y + Cm(1.4), inner_w, Cm(2.0))
+            # Value — dimensiona dinamicamente pra não estourar card
+            value_str = str(kpi["value"])
+            # Se valor longo (>=8 chars como "100,0%" ou "198 MWh"), reduz tamanho
+            if len(value_str) >= 8:
+                val_size = 28
+            elif len(value_str) >= 6:
+                val_size = 32
+            else:
+                val_size = styles.SIZES.kpi_value
+            val_tf = _add_textbox(slide, inner_x, y + Cm(1.5), inner_w, Cm(2.4))
             _set_text(
                 val_tf,
-                str(kpi["value"]),
-                size=styles.SIZES.kpi_value,
+                value_str,
+                size=val_size,
                 color=styles.BRAND.endor,
                 bold=True,
             )
 
-            # Subtext
+            # Subtext — fica abaixo da área do valor
             if kpi.get("subtext"):
-                sub_tf = _add_textbox(slide, inner_x, y + Cm(3.8), inner_w, Cm(0.6))
+                sub_tf = _add_textbox(slide, inner_x, y + Cm(4.6), inner_w, Cm(1.0))
                 _set_text(
                     sub_tf,
                     kpi["subtext"],
@@ -430,21 +466,36 @@ class EndorPresentation:
         slide = self.prs.slides.add_slide(self.prs.slide_layouts[6])
         _add_filled_rect(slide, 0, 0, self.prs.slide_width, self.prs.slide_height, styles.BRAND.endor)
 
-        # Logo grande centralizado-alto
+        # Logo grande centralizado no topo
         if styles.LOGOS.fundo_azul_png.exists():
             slide.shapes.add_picture(
                 str(styles.LOGOS.fundo_azul_png),
                 left=Cm(SLIDE_W_CM / 2 - 4),
-                top=Cm(5.0),
-                height=Cm(3.5),
+                top=Cm(3.5),
+                height=Cm(3.0),
             )
 
-        text_tf = _add_textbox(slide, Cm(2.0), Cm(10.5), Cm(SLIDE_W_CM - 4.0), Cm(2.0))
-        _set_text(text_tf, text, size=styles.SIZES.display, color=styles.NEUTRAL.white, bold=True, align=PP_ALIGN.CENTER)
+        # Texto principal — área dedicada, centralizada vertical-meio
+        text_tf = _add_textbox(slide, Cm(2.0), Cm(8.5), Cm(SLIDE_W_CM - 4.0), Cm(4.0))
+        _set_text(
+            text_tf,
+            text,
+            size=styles.SIZES.display,
+            color=styles.NEUTRAL.white,
+            bold=True,
+            align=PP_ALIGN.CENTER,
+        )
 
+        # Contato bem para baixo, garantindo separação do texto principal
         if contact:
-            c_tf = _add_textbox(slide, Cm(2.0), Cm(13.5), Cm(SLIDE_W_CM - 4.0), Cm(0.8))
-            _set_text(c_tf, contact, size=styles.SIZES.body, color=styles.BRAND.terra, align=PP_ALIGN.CENTER)
+            c_tf = _add_textbox(slide, Cm(2.0), Cm(SLIDE_H_CM - 2.5), Cm(SLIDE_W_CM - 4.0), Cm(0.8))
+            _set_text(
+                c_tf,
+                contact,
+                size=styles.SIZES.body,
+                color=styles.BRAND.terra,
+                align=PP_ALIGN.CENTER,
+            )
 
         self._slides.append(("closing", slide))
         return slide
