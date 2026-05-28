@@ -1,0 +1,280 @@
+# Manifest de organização dos assets
+# Origem: /tmp/endor-assets/Marca_Endor vF
+# Total de arquivos: 138
+
+assets/logos/fundo-azul/concessionarias/luz-do-vale/digital/Luz_do_Vale.png
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Do_Vale/Digital_Imagens/Luz_do_Vale.png
+assets/logos/fundo-azul/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.ai
+assets/logos/fundo-azul/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.pdf
+assets/logos/fundo-azul/concessionarias/luz-do-vale/vetor/Luz_do_Vale.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.ai
+assets/logos/fundo-azul/concessionarias/luz-do-vale/vetor/Luz_do_Vale.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.pdf
+assets/logos/fundo-azul/concessionarias/luz-imperial/digital/Luz_Imperial.png
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Imperial/Digital_Imagens/Luz_Imperial.png
+assets/logos/fundo-azul/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.ai
+assets/logos/fundo-azul/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.pdf
+assets/logos/fundo-azul/concessionarias/luz-imperial/vetor/Luz_Imperial.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.ai
+assets/logos/fundo-azul/concessionarias/luz-imperial/vetor/Luz_Imperial.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.pdf
+assets/logos/fundo-azul/concessionarias/miguel-pereira-luz/digital/Miguel_Pereira_Luz.png
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Miguel_Pereira_Luz/Digital_Imagens/Miguel_Pereira_Luz.png
+assets/logos/fundo-azul/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.ai
+assets/logos/fundo-azul/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.pdf
+assets/logos/fundo-azul/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.ai
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.ai
+assets/logos/fundo-azul/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.pdf
+    <- 2_Endor_Fundo_Azul/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.pdf
+assets/logos/fundo-azul/energia/digital/Endor Text.png
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Digital_Imagens/Endor Text.png
+assets/logos/fundo-azul/energia/digital/EndorEnergia.png
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Digital_Imagens/EndorEnergia.png
+assets/logos/fundo-azul/energia/simplificada/EndorEnergia_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.ai
+assets/logos/fundo-azul/energia/simplificada/EndorEnergia_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.pdf
+assets/logos/fundo-azul/energia/vetor/EndorEnergia.ai
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Impressao_Vetores/EndorEnergia.ai
+assets/logos/fundo-azul/energia/vetor/EndorEnergia.pdf
+    <- 2_Endor_Fundo_Azul/1_Principal_Energia/Impressao_Vetores/EndorEnergia.pdf
+assets/logos/fundo-azul/simbolo/EndorEnergia_SimboloAzul.pdf
+    <- 2_Endor_Fundo_Azul/4_Simbolo_Avatar/EndorEnergia_SimboloAzul.pdf
+assets/logos/fundo-azul/simbolo/EndorEnergia_SimboloAzul.png
+    <- 2_Endor_Fundo_Azul/4_Simbolo_Avatar/EndorEnergia_SimboloAzul.png
+assets/logos/fundo-azul/simbolo/EndorEnergia_SimboloSemfundo.png
+    <- 2_Endor_Fundo_Azul/4_Simbolo_Avatar/EndorEnergia_SimboloSemfundo.png
+assets/logos/fundo-azul/submarcas/digital/Endor_Ambiental.png
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Digital_Imagens/Endor_Ambiental.png
+assets/logos/fundo-azul/submarcas/digital/Endor_GeracaoDistribuida.png
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Digital_Imagens/Endor_GeracaoDistribuida.png
+assets/logos/fundo-azul/submarcas/digital/Endor_Infraestrutura.png
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Digital_Imagens/Endor_Infraestrutura.png
+assets/logos/fundo-azul/submarcas/digital/Endor_Participacoes.png
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Digital_Imagens/Endor_Participacoes.png
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Ambiental_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.ai
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Ambiental_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.pdf
+assets/logos/fundo-azul/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.ai
+assets/logos/fundo-azul/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.pdf
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.ai
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.pdf
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Participacoes_UsoRestrito.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.ai
+assets/logos/fundo-azul/submarcas/simplificada/Endor_Participacoes_UsoRestrito.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.pdf
+assets/logos/fundo-azul/submarcas/vetor/Endor_Ambiental.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Ambiental.ai
+assets/logos/fundo-azul/submarcas/vetor/Endor_Ambiental.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Ambiental.pdf
+assets/logos/fundo-azul/submarcas/vetor/Endor_GeracaoDistribuida.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.ai
+assets/logos/fundo-azul/submarcas/vetor/Endor_GeracaoDistribuida.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.pdf
+assets/logos/fundo-azul/submarcas/vetor/Endor_Infraestrutura.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.ai
+assets/logos/fundo-azul/submarcas/vetor/Endor_Infraestrutura.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.pdf
+assets/logos/fundo-azul/submarcas/vetor/Endor_Participacoes.ai
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Participacoes.ai
+assets/logos/fundo-azul/submarcas/vetor/Endor_Participacoes.pdf
+    <- 2_Endor_Fundo_Azul/3_Submarcas/Impressao_Vetores/Endor_Participacoes.pdf
+assets/logos/fundo-branco/concessionarias/luz-do-vale/digital/Luz_do_Vale.jpg
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Digital_Imagens/Luz_do_Vale.jpg
+assets/logos/fundo-branco/concessionarias/luz-do-vale/digital/Luz_do_Vale.png
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Digital_Imagens/Luz_do_Vale.png
+assets/logos/fundo-branco/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.ai
+assets/logos/fundo-branco/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.pdf
+assets/logos/fundo-branco/concessionarias/luz-do-vale/vetor/Luz_do_Vale.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.ai
+assets/logos/fundo-branco/concessionarias/luz-do-vale/vetor/Luz_do_Vale.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.pdf
+assets/logos/fundo-branco/concessionarias/luz-imperial/digital/Luz_Imperial.jpg
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Digital_Imagens/Luz_Imperial.jpg
+assets/logos/fundo-branco/concessionarias/luz-imperial/digital/Luz_Imperial.png
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Digital_Imagens/Luz_Imperial.png
+assets/logos/fundo-branco/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.ai
+assets/logos/fundo-branco/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.pdf
+assets/logos/fundo-branco/concessionarias/luz-imperial/vetor/Luz_Imperial.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.ai
+assets/logos/fundo-branco/concessionarias/luz-imperial/vetor/Luz_Imperial.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.pdf
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/digital/Miguel_Pereira_Luz.jpg
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Digital_Imagens/Miguel_Pereira_Luz.jpg
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/digital/Miguel_Pereira_Luz.png
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Digital_Imagens/Miguel_Pereira_Luz.png
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.ai
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.pdf
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.ai
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.ai
+assets/logos/fundo-branco/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.pdf
+    <- 1_Endor_Principal_Fundo_Branco/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.pdf
+assets/logos/fundo-branco/energia/digital/EndorEnergia.jpg
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Digital_Imagens/EndorEnergia.jpg
+assets/logos/fundo-branco/energia/digital/EndorEnergia.png
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Digital_Imagens/EndorEnergia.png
+assets/logos/fundo-branco/energia/digital/EndorEnergiaVETT.png
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Digital_Imagens/EndorEnergiaVETT.png
+assets/logos/fundo-branco/energia/simplificada/EndorEnergia_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.ai
+assets/logos/fundo-branco/energia/simplificada/EndorEnergia_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.pdf
+assets/logos/fundo-branco/energia/vetor/EndorEnergia.ai
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Impressao_Vetores/EndorEnergia.ai
+assets/logos/fundo-branco/energia/vetor/EndorEnergia.pdf
+    <- 1_Endor_Principal_Fundo_Branco/1_Principal_Energia/Impressao_Vetores/EndorEnergia.pdf
+assets/logos/fundo-branco/simbolo/EndorEnergia_SimboloBranco.pdf
+    <- 1_Endor_Principal_Fundo_Branco/4_Simbolo_Avatar/EndorEnergia_SimboloBranco.pdf
+assets/logos/fundo-branco/simbolo/EndorEnergia_SimboloBranco.png
+    <- 1_Endor_Principal_Fundo_Branco/4_Simbolo_Avatar/EndorEnergia_SimboloBranco.png
+assets/logos/fundo-branco/simbolo/EndorEnergia_SimboloSemfundo.png
+    <- 1_Endor_Principal_Fundo_Branco/4_Simbolo_Avatar/EndorEnergia_SimboloSemfundo.png
+assets/logos/fundo-branco/submarcas/digital/Endor_Ambiental.jpg
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Ambiental.jpg
+assets/logos/fundo-branco/submarcas/digital/Endor_Ambiental.png
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Ambiental.png
+assets/logos/fundo-branco/submarcas/digital/Endor_GeracaoDistribuida.jpg
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_GeracaoDistribuida.jpg
+assets/logos/fundo-branco/submarcas/digital/Endor_GeracaoDistribuida.png
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_GeracaoDistribuida.png
+assets/logos/fundo-branco/submarcas/digital/Endor_Infraestrutura.jpg
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Infraestrutura.jpg
+assets/logos/fundo-branco/submarcas/digital/Endor_Infraestrutura.png
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Infraestrutura.png
+assets/logos/fundo-branco/submarcas/digital/Endor_Participacoes.jpg
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Participacoes.jpg
+assets/logos/fundo-branco/submarcas/digital/Endor_Participacoes.png
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Digital_Imagens/Endor_Participacoes.png
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Ambiental_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.ai
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Ambiental_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.pdf
+assets/logos/fundo-branco/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.ai
+assets/logos/fundo-branco/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.pdf
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.ai
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.pdf
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Participacoes_UsoRestrito.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.ai
+assets/logos/fundo-branco/submarcas/simplificada/Endor_Participacoes_UsoRestrito.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.pdf
+assets/logos/fundo-branco/submarcas/vetor/Endor_Ambiental.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Ambiental.ai
+assets/logos/fundo-branco/submarcas/vetor/Endor_Ambiental.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Ambiental.pdf
+assets/logos/fundo-branco/submarcas/vetor/Endor_GeracaoDistribuida.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.ai
+assets/logos/fundo-branco/submarcas/vetor/Endor_GeracaoDistribuida.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.pdf
+assets/logos/fundo-branco/submarcas/vetor/Endor_Infraestrutura.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.ai
+assets/logos/fundo-branco/submarcas/vetor/Endor_Infraestrutura.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.pdf
+assets/logos/fundo-branco/submarcas/vetor/Endor_Participacoes.ai
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Participacoes.ai
+assets/logos/fundo-branco/submarcas/vetor/Endor_Participacoes.pdf
+    <- 1_Endor_Principal_Fundo_Branco/3_Submarcas/Impressao_Vetores/Endor_Participacoes.pdf
+assets/logos/monocromatica/concessionarias/luz-do-vale/digital/Luz_do_Vale.png
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Do_Vale/Digital_Imagens/Luz_do_Vale.png
+assets/logos/monocromatica/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.ai
+assets/logos/monocromatica/concessionarias/luz-do-vale/simplificada/Luz_do_Vale_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Do_Vale/Sem_Efeito_Uso_Restrito/Luz_do_Vale_UsoRestrito.pdf
+assets/logos/monocromatica/concessionarias/luz-do-vale/vetor/Luz_do_Vale.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.ai
+assets/logos/monocromatica/concessionarias/luz-do-vale/vetor/Luz_do_Vale.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Do_Vale/Impressao_Vetores/Luz_do_Vale.pdf
+assets/logos/monocromatica/concessionarias/luz-imperial/digital/Luz_Imperial.png
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Imperial/Digital_Imagens/Luz_Imperial.png
+assets/logos/monocromatica/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.ai
+assets/logos/monocromatica/concessionarias/luz-imperial/simplificada/Luz_Imperial_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Imperial/Sem_Efeito_Uso_Restrito/Luz_Imperial_UsoRestrito.pdf
+assets/logos/monocromatica/concessionarias/luz-imperial/vetor/Luz_Imperial.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.ai
+assets/logos/monocromatica/concessionarias/luz-imperial/vetor/Luz_Imperial.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Luz_Imperial/Impressao_Vetores/Luz_Imperial.pdf
+assets/logos/monocromatica/concessionarias/miguel-pereira-luz/digital/Miguel_Pereira_Luz.png
+    <- 3_Endor_Monocromatica/2_Concessionarias/Miguel_Pereira_Luz/Digital_Imagens/Miguel_Pereira_Luz.png
+assets/logos/monocromatica/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.ai
+assets/logos/monocromatica/concessionarias/miguel-pereira-luz/simplificada/Miguel_Pereira_Luz_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Miguel_Pereira_Luz/Sem_Efeito_Uso_Restrito/Miguel_Pereira_Luz_UsoRestrito.pdf
+assets/logos/monocromatica/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.ai
+    <- 3_Endor_Monocromatica/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.ai
+assets/logos/monocromatica/concessionarias/miguel-pereira-luz/vetor/Miguel_Pereira_Luz.pdf
+    <- 3_Endor_Monocromatica/2_Concessionarias/Miguel_Pereira_Luz/Impressao_Vetores/Miguel_Pereira_Luz.pdf
+assets/logos/monocromatica/energia/digital/EndorEnergia.png
+    <- 3_Endor_Monocromatica/1_Principal_Energia/Digital_Imagens/EndorEnergia.png
+assets/logos/monocromatica/energia/simplificada/EndorEnergia_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.ai
+assets/logos/monocromatica/energia/simplificada/EndorEnergia_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/1_Principal_Energia/Sem_Efeito_Uso_Restrito/EndorEnergia_UsoRestrito.pdf
+assets/logos/monocromatica/energia/vetor/EndorEnergia.ai
+    <- 3_Endor_Monocromatica/1_Principal_Energia/Impressao_Vetores/EndorEnergia.ai
+assets/logos/monocromatica/energia/vetor/EndorEnergia.pdf
+    <- 3_Endor_Monocromatica/1_Principal_Energia/Impressao_Vetores/EndorEnergia.pdf
+assets/logos/monocromatica/simbolo/EndorEnergia_SimboloSemfundo.png
+    <- 3_Endor_Monocromatica/4_Simbolo_Avatar/EndorEnergia_SimboloSemfundo.png
+assets/logos/monocromatica/submarcas/digital/Endor_Ambiental.png
+    <- 3_Endor_Monocromatica/3_Submarcas/Digital_Imagens/Endor_Ambiental.png
+assets/logos/monocromatica/submarcas/digital/Endor_GeracaoDistribuida.png
+    <- 3_Endor_Monocromatica/3_Submarcas/Digital_Imagens/Endor_GeracaoDistribuida.png
+assets/logos/monocromatica/submarcas/digital/Endor_Infraestrutura.png
+    <- 3_Endor_Monocromatica/3_Submarcas/Digital_Imagens/Endor_Infraestrutura.png
+assets/logos/monocromatica/submarcas/digital/Endor_Participacoes.png
+    <- 3_Endor_Monocromatica/3_Submarcas/Digital_Imagens/Endor_Participacoes.png
+assets/logos/monocromatica/submarcas/simplificada/Endor_Ambiental_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.ai
+assets/logos/monocromatica/submarcas/simplificada/Endor_Ambiental_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Ambiental_UsoRestrito.pdf
+assets/logos/monocromatica/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.ai
+assets/logos/monocromatica/submarcas/simplificada/Endor_GeracaoDistribuida_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_GeracaoDistribuida_UsoRestrito.pdf
+assets/logos/monocromatica/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.ai
+assets/logos/monocromatica/submarcas/simplificada/Endor_Infraestrutura_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Infraestrutura_UsoRestrito.pdf
+assets/logos/monocromatica/submarcas/simplificada/Endor_Participacoes_UsoRestrito.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.ai
+assets/logos/monocromatica/submarcas/simplificada/Endor_Participacoes_UsoRestrito.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Sem_Efeito_Uso_Restrito/Endor_Participacoes_UsoRestrito.pdf
+assets/logos/monocromatica/submarcas/vetor/Endor_Ambiental.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Ambiental.ai
+assets/logos/monocromatica/submarcas/vetor/Endor_Ambiental.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Ambiental.pdf
+assets/logos/monocromatica/submarcas/vetor/Endor_GeracaoDistribuida.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.ai
+assets/logos/monocromatica/submarcas/vetor/Endor_GeracaoDistribuida.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_GeracaoDistribuida.pdf
+assets/logos/monocromatica/submarcas/vetor/Endor_Infraestrutura.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.ai
+assets/logos/monocromatica/submarcas/vetor/Endor_Infraestrutura.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Infraestrutura.pdf
+assets/logos/monocromatica/submarcas/vetor/Endor_Participacoes.ai
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Participacoes.ai
+assets/logos/monocromatica/submarcas/vetor/Endor_Participacoes.pdf
+    <- 3_Endor_Monocromatica/3_Submarcas/Impressao_Vetores/Endor_Participacoes.pdf
+brand/Endor_Guia_Identidade_Visual.pdf
+    <- Endor_Guia_Identidade_Visual.pdf
